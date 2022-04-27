@@ -1,0 +1,36 @@
+package basics;
+
+import java.util.Scanner;
+public class customer_details
+{
+ public static void main(String[] args)
+ {
+	 int cus_id,age;
+	 float cont_no;
+	 String cus_name,address;
+	 
+	 Scanner s =new Scanner(System.in);
+	 
+	 System.out.println("enter the customer name");
+	 cus_name=s.next();
+	 System.out.println("enter the customer ID");
+	 cus_id=s.nextInt();
+	 System.out.println("enter the customer contact no");
+	 cont_no=s.nextFloat();
+	 System.out.println("enter the customer age");
+	 age=s.nextInt();
+	 System.out.println("enter the customer address");
+	 address=s.next();
+	 
+	 System.out.println("customer details:");
+	 System.out.println("customer contact no:"+cont_no); 
+	 System.out.println("customer ID:"+cus_id);
+	 System.out.println("customer name:"+cus_name);
+	 System.out.println("customer age:"+age);
+	 System.out.println("customer address:"+address);
+	 
+	 
+ }
+}
+
+
